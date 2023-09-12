@@ -3,11 +3,11 @@ import time
 from telegram.ext import *
 from telegram.update import Update
 
-API = "5845725471:AAHcEIk_2i8tIEKR80DWTLuvtbESWLSy0vU"
+API = "telegram api"
 
 session = usdt_perpetual.HTTP(endpoint='https://api.bybit.com', 
-    api_key='HNSBQYMATFZDGZEZHK',
-    api_secret='PBKHRDKTETGRLJQQYZILYBTIEZXWRNNEHMUP')
+    api_key='apikey',
+    api_secret='api secret')
 
 
 def alarm(update: Update, context: CallbackContext):
