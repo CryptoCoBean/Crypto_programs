@@ -8,8 +8,8 @@ import math
 exchange_id = 'binanceusdm'
 exchange_class = getattr(ccxt, exchange_id)
 binance = exchange_class({
-    'apiKey': '09wqPd4c8YPO8oxj0mTStbzQwh5MPtGVKvDHsk6PoaTTUxTAGWkSmfeMfrqBzRYk',
-    'secret': '7ROIHEI6bUXAkXRjH1WvyAebLnlpuXOKznh2ebqSzv7oDNnx4GwbA6JsH0q8583b',
+    'apiKey': 'APIKEY',
+    'secret': 'Secretkey',
     'enableRateLimit': True,
 })
 
