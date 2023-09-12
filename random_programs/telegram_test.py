@@ -4,7 +4,7 @@
 from telegram.ext import *
 from telegram.update import Update
 
-API = "5845725471:AAHcEIk_2i8tIEKR80DWTLuvtbESWLSy0vU"
+API = "telegram api"
 
 def start(update: Update, context: CallbackContext):
     update.message.reply_text("Hello this is a test bot")
