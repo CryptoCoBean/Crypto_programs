@@ -6,7 +6,7 @@ from datetime import datetime
 import calendar
 import matplotlib.pyplot as plt
 
-session_auth = usdt_perpetual.HTTP(endpoint='https://api.bybit.com', api_key='HNSBQYMATFZDGZEZHK', api_secret='PBKHRDKTETGRLJQQYZILYBTIEZXWRNNEHMUP')
+session_auth = usdt_perpetual.HTTP(endpoint='https://api.bybit.com', api_key='api key', api_secret='api secret')
 
 now = datetime.utcnow()
 unixtime = calendar.timegm(now.utctimetuple())
