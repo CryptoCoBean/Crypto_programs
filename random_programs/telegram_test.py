@@ -1,5 +1,5 @@
 # telegram bot name: pytelesample_bot, can be found here t.me/pytelesample_bot
-# telegram bot HTTP API key "5845725471:AAHcEIk_2i8tIEKR80DWTLuvtbESWLSy0vU"
+# telegram bot HTTP API key "********************************"
 
 from telegram.ext import *
 from telegram.update import Update
@@ -35,3 +35,4 @@ print("Bot Started...")
 updater.dispatcher.add_handler(MessageHandler(Filters.text, unknown_text))
   
 updater.start_polling()
+
