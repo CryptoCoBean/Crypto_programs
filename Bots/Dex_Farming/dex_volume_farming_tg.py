@@ -5,7 +5,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 import dex_volume_farming_Hyperliquid as dex_volume_farming
 
 TELEGRAM_TOKEN = ""
-AUTHORIZED_USER_ID = 1943535732  # Telegram numeric ID (Crytcobean)
+AUTHORIZED_USER_ID = {REDACTED}  # Telegram numeric ID (Crytcobean)
 
 
 # === /start ===
@@ -75,4 +75,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
